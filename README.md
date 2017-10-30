@@ -2,6 +2,8 @@
 
 Clone this to
 
+```path
+~/Library/Application Support/Code/User
 ```
-/Library/Application Support/Code/User
-```
+
+See [documentation](https://code.visualstudio.com/docs/getstarted/settings)

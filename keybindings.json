@@ -35,7 +35,7 @@
     "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
   },
   {
-    "key": "cmd+\\",
+    "key": "\\ \\",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
@@ -49,5 +49,49 @@
   {
     "key": "shift+cmd+o",
     "command": "-workbench.action.gotoSymbol"
+  },
+  {
+    "key": "alt+down",
+    "command": "cursorPageDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "pagedown",
+    "command": "-cursorPageDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+up",
+    "command": "cursorPageUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "pageup",
+    "command": "-cursorPageUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "cursorPageDownSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+pagedown",
+    "command": "-cursorPageDownSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "cursorPageUpSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+pageup",
+    "command": "-cursorPageUpSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+j",
+    "command": "extension.jumpy-word"
   }
 ]

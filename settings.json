@@ -17,7 +17,6 @@
     132
   ],
   "editor.wordWrap": "on",
-  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "window.zoomLevel": 0,
   "editor.tabSize": 2,
@@ -59,5 +58,12 @@
   "workbench.startupEditor": "newUntitledFile",
   "trailing-spaces.highlightCurrentLine": false,
   "editor.renderLineHighlight": "none",
-  "gitlens.blame.line.enabled": false
+  "gitlens.blame.line.enabled": false,
+  "[javascriptreact]": {
+
+  },
+  "terminal.external.osxExec": "iTerm.app",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.formatOnType": true,
+  "tslint.run": "onSave"
 }
