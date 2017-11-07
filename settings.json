@@ -2,20 +2,9 @@
 {
   "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 13,
-  // Basic settings: turn linter(s) on
-  "ruby.lint": {
-    "reek": true,
-    "rubocop": true,
-    "ruby": true, //Runs ruby -wc
-    "fasterer": true,
-    "debride": true,
-    "ruby-lint": true
-  },
   "files.autoSave": "off",
   "terminal.integrated.fontSize": 13,
-  "editor.rulers": [
-    132
-  ],
+  "editor.rulers": [80, 120, 132],
   "editor.wordWrap": "on",
   "workbench.iconTheme": "material-icon-theme",
   "window.zoomLevel": 0,
@@ -43,7 +32,8 @@
     "**/*.iml": true,
     "**/node_modules": true,
     "**/.m2": true,
-    "**/target": true
+    "**/target": true,
+    "**/tags": true
   },
   "files.associations": {
     "*.proxy": "apacheconf"
@@ -65,5 +55,18 @@
   "terminal.external.osxExec": "iTerm.app",
   "workbench.colorTheme": "One Dark Pro",
   "editor.formatOnType": true,
-  "tslint.run": "onSave"
+  "tslint.run": "onType",
+  "extensions.ignoreRecommendations": false,
+  "[kickassembler]": {
+    "editor.tabSize": 8
+    // "editor.cursorStyle": "block",
+    // "editor.cursorBlinking": "smooth",
+    // "editor.fontFamily": "C64 Pro Mono",
+    // "editor.fontSize": 10
+  },
+  "editor.detectIndentation": true,
+  "[makefile]": {
+    "editor.insertSpaces": false,
+    "editor.renderWhitespace": "boundary"
+  }
 }
