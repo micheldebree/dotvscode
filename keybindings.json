@@ -85,5 +85,10 @@
   {
     "key": "alt+j",
     "command": "extension.jumpy-word"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && editorLangId == 'markdown'"
   }
 ]
