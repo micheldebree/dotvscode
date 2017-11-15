@@ -68,5 +68,7 @@
   "[makefile]": {
     "editor.insertSpaces": false,
     "editor.renderWhitespace": "boundary"
-  }
+  },
+  "search.useIgnoreFiles": true,
+  "gitlens.gitExplorer.files.layout": "auto"
 }
