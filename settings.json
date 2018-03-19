@@ -36,7 +36,9 @@
     "**/tags": true
   },
   "files.associations": {
-    "*.proxy": "apacheconf"
+    "*.proxy": "apacheconf",
+    "*.jag": "mason",
+    "*.md": "markdown"
   },
   "editor.renderWhitespace": "none",
   "editor.renderIndentGuides": false,
@@ -74,5 +76,19 @@
   "explorer.decorations.badges": false,
   "explorer.openEditors.visible": 0,
   "search.useIgnoreFilesByDefault": true,
-  "workbench.panel.location": "bottom"
+  "workbench.panel.location": "bottom",
+  "git.confirmSync": false,
+  "editor.autoIndent": false,
+  "open-in-vim.openMethod": "macos.iterm",
+  "gitProjectManager.baseProjectsFolders": [
+    "~/dev/dso/src"
+  ],
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.enabled": false,
+  "gitlens.keymap": "alternate",
+  // see https://code.visualstudio.com/docs/getstarted/theme-color-reference
+  "workbench.colorCustomizations" : {
+    "terminal.foreground" : "#c5c8c6",
+    "terminal.background" : "#333333"
+}
 }
