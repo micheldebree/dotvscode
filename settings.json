@@ -9,7 +9,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "window.zoomLevel": 0,
   "editor.tabSize": 2,
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "on",
   "workbench.statusBar.visible": true,
   "workbench.activityBar.visible": false,
   "search.exclude": {
@@ -50,7 +50,6 @@
   "workbench.startupEditor": "newUntitledFile",
   "trailing-spaces.highlightCurrentLine": false,
   "editor.renderLineHighlight": "none",
-  "gitlens.blame.line.enabled": false,
   "[javascriptreact]": {
 
   },
@@ -75,8 +74,6 @@
   "gitlens.gitExplorer.files.layout": "auto",
   "explorer.decorations.badges": false,
   "explorer.openEditors.visible": 0,
-  "search.useIgnoreFilesByDefault": true,
-  "workbench.panel.location": "bottom",
   "git.confirmSync": false,
   "editor.autoIndent": false,
   "open-in-vim.openMethod": "macos.iterm",
@@ -85,10 +82,34 @@
   ],
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.enabled": false,
-  "gitlens.keymap": "alternate",
+  "gitlens.keymap": "chorded",
   // see https://code.visualstudio.com/docs/getstarted/theme-color-reference
   "workbench.colorCustomizations" : {
     "terminal.foreground" : "#c5c8c6",
     "terminal.background" : "#333333"
-}
+},
+"gitlens.advanced.messages": {
+  "suppressCommitHasNoPreviousCommitWarning": false,
+  "suppressCommitNotFoundWarning": false,
+  "suppressFileNotUnderSourceControlWarning": false,
+  "suppressGitVersionWarning": false,
+  "suppressLineUncommittedWarning": false,
+  "suppressNoRepositoryWarning": false,
+  "suppressResultsExplorerNotice": false,
+  "suppressShowKeyBindingsNotice": true
+},
+"[yaml]": {
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.autoIndent": true
+},
+"yaml.format.enable": true,
+"explorer.confirmDragAndDrop": false,
+"gitlens.historyExplorer.enabled": true,
+"workbench.statusBar.feedback.visible": false
 }
