@@ -6,8 +6,8 @@
   "terminal.integrated.fontSize": 13,
   "editor.rulers": [80, 120, 132],
   "editor.wordWrap": "on",
-  "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": 0,
+  "workbench.iconTheme": "eq-material-theme-icons-ocean",
+  "window.zoomLevel": -0.25,
   "editor.tabSize": 2,
   "editor.lineNumbers": "on",
   "workbench.statusBar.visible": true,
@@ -111,5 +111,8 @@
 "yaml.format.enable": true,
 "explorer.confirmDragAndDrop": false,
 "gitlens.historyExplorer.enabled": true,
-"workbench.statusBar.feedback.visible": false
+"workbench.statusBar.feedback.visible": false,
+"workbench.sideBar.location": "left",
+"editor.renderControlCharacters": true,
+"materialTheme.fixIconsRunning": false
 }
