@@ -1,13 +1,12 @@
 // Place your settings in this file to overwrite the default settings
 {
   "editor.fontFamily": "'Source Code Pro', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 13,
   "files.autoSave": "off",
   "terminal.integrated.fontSize": 13,
-  "editor.rulers": [80, 120, 132],
+  "editor.rulers": [100, 120, 132],
   "editor.wordWrap": "on",
   "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": -0.25,
+  "window.zoomLevel": 0,
   "editor.tabSize": 2,
   "editor.lineNumbers": "on",
   "workbench.statusBar.visible": true,
@@ -17,6 +16,7 @@
     "**/.m2": true,
     "**/*.orig": true,
     "**/bower_components": true,
+    "**/dist": true,
     "**/node_modules": true,
     "**/target": true
   },
@@ -28,7 +28,11 @@
     "**/.DS_Store": true,
     "**/.*un~": true,
     "**/*.orig": true,
-    "**/*.retry": true
+    "**/*.retry": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
   },
   "files.associations": {
     "*.proxy": "apacheconf",
@@ -46,11 +50,11 @@
   "trailing-spaces.highlightCurrentLine": false,
   "editor.renderLineHighlight": "gutter",
   "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 
   },
   "terminal.external.osxExec": "iTerm.app",
   "editor.formatOnType": true,
-  "tslint.run": "onType",
   "extensions.ignoreRecommendations": false,
   "[kickassembler]": {
     "editor.tabSize": 8
@@ -69,7 +73,7 @@
   "git.confirmSync": false,
   "editor.autoIndent": false,
   "gitProjectManager.baseProjectsFolders": [
-    "~/dev/dso/src"
+    "~/dev/dso/pr13"
   ],
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.enabled": false,
@@ -108,7 +112,41 @@
 "explorer.decorations.badges": false,
 "workbench.colorTheme": "One Dark Pro",
 "workbench.editor.highlightModifiedTabs": true,
-"gitlens.views.repositories.files.layout": "auto",
 "gitlens.views.fileHistory.enabled": false,
-"gitlens.views.lineHistory.enabled": false
+"gitlens.views.lineHistory.enabled": false,
+"java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/michel/.vscode/extensions/gabrielbb.vscode-lombok-0.9.8/server/lombok.jar\"",
+"[java]": {},
+"editor.suggestSelection": "first",
+"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+"[typescript]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[javascript]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[json]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[xml]": {
+  "editor.defaultFormatter": "redhat.vscode-xml"
+},
+"[html]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"yaml.schemas": {
+  "file:///Users/michel/.vscode/extensions/atlassian.atlascode-1.2.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+},
+"[jsonc]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"cucumber-gotostep.srcPath": "src/test/java",
+"java.configuration.maven.userSettings": "~/.m2/settings.xml",
+"java.maven.downloadSources": true,
+"editor.renderIndentGuides": false,
+"[markdown]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"gitlens.views.repositories.files.layout": "list",
+"java.format.onType.enabled": false,
+"java.format.enabled": false
 }
